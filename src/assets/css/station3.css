@@ -3,11 +3,11 @@
     background-color: #fff;
     padding: 20px;
   }
-.card_title p{
+.card_title {
     color:#282828;
     font-size:14px;
 }
-.card__description p{
+.card__description {
     color:#282828;
     font-size:12px;
 }
