@@ -1,17 +1,18 @@
 
 .card{
     background-color: #fff;
+    padding: 20px;
   }
-.card_title{
+.card_title p{
     color:#282828;
     font-size:14px;
 }
-.card__description{
+.card__description p{
     color:#282828;
     font-size:12px;
 }
 .card__img-top{
-    padding: 20px;
+   
     margin-bottom: 5px;
     width: 288px;
     height: 182px;
