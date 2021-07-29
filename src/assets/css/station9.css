@@ -1,0 +1,52 @@
+/* (PC) */
+@media screen and (min-width: 1200px) {
+
+    .card{
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    p.card__title{
+        color:#282828;
+        font-size:14px;
+    }
+    p.card__description{
+        color:#282828;
+        font-size:12px;
+    }
+    .card__img-top{
+    
+        margin-bottom: 5px;
+        width: 288px;
+        height: 182px;
+    }
+
+    header{
+        background-color: #ffffff;
+    }
+    footer{
+        background-color: #ffffff;
+    }
+    .card-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* （タブレット） */
+@media screen and (min-width: 768px) {
+
+    p.card__title{
+        color:#282828;
+        font-size:8px;
+    }
+    p.card__description{
+        color:#282828;
+        font-size:6px;
+    }
+}
+/* （スマホ） */
+@media screen and (min-width: 320px) {
+    p.card__description{
+        display:none;
+    }
+}
